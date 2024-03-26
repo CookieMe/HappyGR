@@ -10,7 +10,7 @@
  ******************************************
 [rewrite_local]
 # > Grow Unlock Permanent VIP
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/CookieMe/HappyGR/main/happygr.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%\w{34})$ url script-response-body https://raw.githubusercontent.com/CookieMe/HappyGR/main/happygr.js
 [mitm] 
 hostname = api.revenuecat.com
 ******************************************/
