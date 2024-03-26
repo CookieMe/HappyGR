@@ -86,3 +86,5 @@ function getSubscriptionInfo() {
     var body = JSON.stringify(subscriber);
     return body;
 }
+// 返回 JavaScript 代码的响应
+$done({ body: getSubscriptionInfo() });
