@@ -83,6 +83,6 @@ function getSubscriptionInfo() {
             }
         }
     };
-    var body = JSON.stringify(subscriber, null, 4);
+    var body = JSON.stringify(subscriber);
     return body;
 }
