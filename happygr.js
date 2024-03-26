@@ -88,4 +88,4 @@ function getSubscriptionInfo() {
     return body;
 }
 // 返回 JavaScript 代码的响应
-console.log(getSubscriptionInfo());
+$done({ body: getSubscriptionInfo() });
