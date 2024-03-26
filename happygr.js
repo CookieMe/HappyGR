@@ -29,7 +29,7 @@ function getSubscriptionInfo() {
                 }
             },
             "first_seen": "2023-11-11T13:38:02Z",
-            "last_seen": requestDate.toISOString(),
+            "last_seen": "2024-03-25T21:03:17Z",
             "management_url": "https://apps.apple.com/account/subscriptions",
             "non_subscriptions": {
                 "grow_lifetime": [{
