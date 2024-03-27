@@ -29,8 +29,8 @@ function getSubscriptionInfo() {
                     "purchase_date": "2024-03-14T14:44:52Z"
                 }
             },
-            "first_seen": "2024-02-15T03:20:16Z",
-            "last_seen": "2024-03-25T21:03:17Z",
+            "first_seen": "2024-03-27T04:26:44Z",
+		    "last_seen": "2024-03-27T04:26:44Z",
             "management_url": "https://apps.apple.com/account/subscriptions",
             "non_subscriptions": {
                 "grow_lifetime": [{
@@ -42,8 +42,8 @@ function getSubscriptionInfo() {
                     "store_transaction_id": "1090000007756035"
                 }]
             },
-            "original_app_user_id": "$RCAnonymousID:1a71b9d1749d43a28698a77d58bcdcf4",
-            "original_application_version": "298",
+            "original_app_user_id": "$RCAnonymousID:f05892111c2643dcbc3ebecba3878c22",
+            "original_application_version": "270",
             "original_purchase_date": "2023-11-11T13:31:47Z",
             "other_purchases": {
                 "grow_lifetime": {
