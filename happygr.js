@@ -24,7 +24,7 @@ obj = {
     "first_seen": "2023-03-08T08:29:53Z",
     "original_application_version": "null",
     "other_purchases": {},
-    "management_url": "itms-apps://apps.apple.com/account/subscriptions",
+    "management_url": "https://apps.apple.com/account/subscriptions",
     "subscriptions": {
       "grow_lifetime": {
         "is_sandbox": false,
