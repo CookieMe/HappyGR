@@ -18,37 +18,41 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = {
-  "request_date": "2023-03-08T08:29:53Z", // Decoded from obfuscated string
-  "subscriber": {
-    "last_seen": "2023-03-08T08:29:53Z",
-    "first_seen": "2023-03-08T08:29:53Z",
-    "original_application_version": "null",
-    "other_purchases": {},
-    "management_url": "https://apps.apple.com/account/subscriptions",
-    "subscriptions": {
-      "grow_lifetime": {
-        "is_sandbox": false,
-        "ownership_type": "PURCHASED", // Decoded from obfuscated string
-        "billing_issues_detected_at": null,
-        "period_type": "normal",
-        "expires_date": null,
-        "grace_period_expires_date": null,
-        "unsubscribe_detected_at": null,
-        "original_purchase_date": "2023-03-08T08:29:53Z",
-        "purchase_date": "2023-03-08T08:29:53Z",
-        "store": "app_store" // Decoded from obfuscated string
+  "request_date" : "2024-03-27T14:38:03Z"，
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2024-03-27T06:01:40Z",
+    "original_application_version" : "null",
+    "other_purchases" : {
+
+    },
+    "management_url" : "https://apps.apple.com/account/subscriptions",
+    "subscriptions" : {
+      "grow_lifetime" : {
+        "is_sandbox" : false,
+        "ownership_type" : "PURCHASED",
+        "billing_issues_detected_at" : null,
+        "period_type" : "normal",
+        "expires_date" : null,
+        "grace_period_expires_date" : null,
+        "unsubscribe_detected_at" : null,
+        "original_purchase_date" : "2024-03-27T06:05:45Z",
+        "purchase_date" : "2024-03-27T06:05:44Z",
+        "store" : "app_store"
       }
     },
-    "entitlements": {
-      "grow.pro": {
-        "expires_date": null,
-        "purchase_date": "2023-03-08T08:29:53Z",
-        "product_identifier": "grow.pro"
+    "entitlements" : {
+      "grow.pro" : {
+        "expires_date" : null,
+        "product_identifier" : "grow.pro",
+        "purchase_date" : "2024-03-27T06:05:44Z"
       }
     },
-    "original_purchase_date": "2023-03-08T08:29:53Z",
-    "original_app_user_id": "$RCAnonymousID:df1e29fd84e94d0f93aff3632cbb613d", // Potential privacy concern
-    "non_subscriptions": {}
+    "original_purchase_date" : "2023-10-27T10:42:47Z",
+    "original_app_user_id" : "$RCAnonymousID:df1e29fd84e94d0f93aff3632cbb613d",
+    "last_seen" : "2024-03-27T06:01:40Z"
   }
 };
 
