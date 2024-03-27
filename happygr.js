@@ -18,7 +18,7 @@ var body = $response.body;
 var obj = JSON.parse(body);
 
 obj = {
-  "request_date" : "2024-03-27T14:38:03Z"，
+  "request_date" : "2024-03-27T14:38:03Z",
   "subscriber" : {
     "non_subscriptions" : {
 
