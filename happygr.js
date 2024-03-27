@@ -43,7 +43,7 @@ obj = {
                 }
             ]
         },
-        "original_app_user_id": "$RCAnonymousID:1a71b9d1749d43a28698a77d58bcdcf4",
+        "original_app_user_id": "$RCAnonymousID:df1e29fd84e94d0f93aff3632cbb613d",
         "original_application_version": "298",
         "original_purchase_date": "2023-11-11T13:31:47Z",
         "other_purchases": {
